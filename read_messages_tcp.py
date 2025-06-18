@@ -4,7 +4,7 @@ from pubsub import pub
 from meshtastic.tcp_interface import TCPInterface
 from meshtastic import portnums_pb2
 
-node_ip = '192.168.1.125'  # Replace with your Meshtastic node's IP address
+node_ip = '192.168.2.20'  # Replace with your Meshtastic node's IP address
 
 def get_node_info(node_ip):
     print("Initializing TcpInterface to get node info...")
